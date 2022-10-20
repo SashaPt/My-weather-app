@@ -1,0 +1,119 @@
+.container {
+  margin: auto;
+  width: 90%;
+  max-width: 1000px;
+}
+header .container {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h1 {
+    color: darkcyan;
+    font-weight: bold;
+    line-height: calc(20px + 12 * (100vw / 1000));
+    font-size: calc(20px + 12 * (100vw / 1000));
+  }
+  .search {
+    height: 35px;
+    display: flex;
+    align-items: center;
+  }
+  input,
+  button {
+    height: 100%;
+    padding: 5px;
+    img {
+      height: 100%;
+      width: auto;
+    }
+  }
+}
+header .change-day {
+  background-color: black;
+  .container {
+    justify-content: flex-start;
+    button {
+      background-color: transparent;
+      color: white;
+      border: 1px solid white;
+      height: 100%;
+      width: 100px;
+      cursor: pointer;
+    }
+  }
+}
+.active {
+  font-weight: bold;
+  outline: 1px solid gray;
+}
+.selected {
+  background-color: rgb(214, 237, 247);
+}
+main .container {
+  background-color: rgb(255, 255, 255);
+  padding: 20px 30px;
+  margin: 20px auto;
+  h3 {
+    height: 50px;
+    line-height: 50px;
+    color: darkcyan;
+  }
+}
+.forecast {
+  width: 100%;
+  display: flex;
+  app-forecast {
+    width: 20%;
+    padding: 5px 0px;
+    cursor: pointer;
+  }
+}
+main .error-container {
+  padding: 0;
+}
+.hourly {
+  display: flex;
+  overflow-x: auto;
+  .params {
+    padding-right: calc(2px + 2 * (100vw/1000));
+    background-color: white;
+    position: sticky;
+    left: 0;
+  }
+  p {
+    font-size: calc(12px + 3 * (100vw/1000));
+    margin: 10px auto;
+    color: gray;
+  }
+  app-hourly {
+    width: 105px;
+    text-align: center;
+  }
+}
+.icon {
+  width: 50px;
+  height: 54.05px;
+}
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+  header .container {
+    height: auto;
+    flex-direction: column;
+    row-gap: 10px;
+    margin: 10px auto;
+  }
+  header .change-day {
+    .container {
+      height: 50px;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+  }
+  main .container {
+    padding: 8px 10px;
+    margin: 20px auto;
+  }
+}

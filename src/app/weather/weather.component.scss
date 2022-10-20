@@ -1,0 +1,45 @@
+.header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: darkcyan;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.weather-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0;
+  font-size: calc(13px + 3 * (100vw/1000));
+  .weather-main {
+    text-align: center;
+    color: gray;
+    width: 10%;
+    img {
+      width: 100%;
+    }
+  }
+  .weather-temperature {
+    text-align: center;
+    p {
+      font-size: calc(20px + 20 * (100vw/1000));
+    }
+    span {
+      color: gray;
+    }
+  }
+  .weather-sun {
+    color: gray;
+    p {
+      margin: 5px auto;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .weather-info {
+     .weather-main {
+      width: 15%;
+     }
+  }
+}

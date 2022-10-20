@@ -1,0 +1,8 @@
+  <div class="params">
+    <p>{{dayForecast.dt * 1000| date: 'HH:mm' }}</p>
+    <div class="icon"><img [src]="getIcon(dayForecast.weather[0].icon)" alt="weather-icon" /></div>
+    <p>{{ dayForecast.weather[0].main }}</p>
+    <p>{{ dayForecast.main.temp | number: '1.0-0'}}&#176;C</p>
+    <p>{{ dayForecast.main.feels_like | number: '1.0-0'}}&#176;C</p>
+    <p>{{dayForecast.wind.speed}} m/s</p>
+  </div>

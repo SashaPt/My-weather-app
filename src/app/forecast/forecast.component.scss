@@ -1,0 +1,22 @@
+.main {
+    text-align: center;
+}
+.weather-main {
+    width: 50%;
+    margin: auto;
+    img {
+        width: 100%;
+    }
+}
+p {
+    color: gray;
+    font-size: calc(13px + 3 * (100vw/1000));
+}
+span {
+    font-size: calc(18px + 7 * (100vw/1000));
+}
+@media (max-width: 480px) {
+    .date {
+        display: none;
+    }
+}

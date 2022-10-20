@@ -1,0 +1,9 @@
+<div class="main">
+  <h3>{{ dayForecast.dt * 1000 | date: "EEEEEE" }}</h3>
+  <p class="date">{{ dayForecast.dt * 1000 | date: "dd.M.yyyy" }}</p>
+  <div class="weather-main">
+    <img [src]="getIcon(dayForecast.weather[0].icon)" alt="weather-icon" />
+  </div>
+  <p>{{ dayForecast.weather[0].main }}</p>
+  <span>{{ dayForecast.main.temp | number: "1.0-0" }}&#176;C</span>
+</div>

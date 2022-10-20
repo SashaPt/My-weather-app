@@ -1,27 +1,29 @@
-# MyWeatherApp
+#  My Weather App
+
+App for getting current and forecast weather by city name.
+
+## Description
+
+My Weather App was created using <a href='https://openweathermap.org/api'>OpenWeather API</a>.
+
+### Details:
+Search panel - to write city name;
+Tabs - to choose current or forecast weather we want to see;
+Today page - to get information about current weather and forecast weather on today;
+Five-days forecast page - to get information about forecast daily weather on five days and every 3 hour/day by clicking a daily weather;
+Error page - to show, that request failed (for example, due to incorrect city name).
+
+### Development
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
 
-## Development server
-
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+### Demo 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Demo application is available <a href="https://sashapt.github.io/my-weather-app/">here</a>.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
