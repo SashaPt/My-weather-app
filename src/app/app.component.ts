@@ -37,7 +37,7 @@ export class AppComponent implements OnInit {
           this.currentWeatherTimezoned = this.changeCurrentTimeZone(
             this.currentWeather
           );
-          if (this.isTodayActive) this.selectedDate = this.currentWeather.dt;
+          if (this.isTodayActive) this.selectedDate = this.currentWeatherTimezoned.dt;
           this.isError = false;
         },
         (error) => {
@@ -83,7 +83,7 @@ export class AppComponent implements OnInit {
     this.isTodayActive = true;
     this.isForecastActive = false;
     if (this.currentWeather) {
-      this.selectedDate = this.currentWeather.dt;
+      this.selectedDate = this.currentWeatherTimezoned.dt;
     }
   }
   getFiveDaysWeather(array: IHourWeather[]) {
