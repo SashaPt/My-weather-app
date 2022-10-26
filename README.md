@@ -4,7 +4,7 @@ App for getting current and forecast weather by city name. <a href="https://sash
 
 ## Description
 
-My Weather App was created using <a href='https://openweathermap.org/api'>OpenWeather API</a>.
+My Weather App was created by using <a href='https://openweathermap.org/api'>OpenWeather API</a>.
 
 ### Details:
 - Search panel - to write city name;
