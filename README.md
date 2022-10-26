@@ -10,7 +10,7 @@ My Weather App was created using <a href='https://openweathermap.org/api'>OpenWe
 - Search panel - to write city name;
 - Tabs - to choose current or forecast weather we want to see;
 - Today page - to get information about current weather and forecast weather on today;
-- Five-days forecast page - to get information about forecast daily weather on five days and every 3 hour/day by clicking a daily weather;
+- Five-day forecast page - to get information about forecast daily weather on five days and every 3 hour/day by clicking a daily weather;
 - Error page - to show, that request failed (for example, due to incorrect city name).
 
 ### Development
