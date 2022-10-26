@@ -1,6 +1,6 @@
 #  My Weather App
 
-App for getting current and forecast weather by city name.
+App for getting current and forecast weather by city name. <a href="https://sashapt.github.io/my-weather-app/">View Deployment</a>.
 
 ## Description
 
@@ -19,9 +19,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-### Demo 
 
-Demo application is available <a href="https://sashapt.github.io/my-weather-app/">here</a>.
 
 
 
