@@ -1,6 +1,6 @@
 #  My Weather App
 
-App for getting current and forecast weather by city name. <a href="https://sashapt.github.io/my-weather-app/">View Deployment</a>.
+App for getting current and forecast weather by city name. <a href="https://sashapt.github.io/My-weather-app/">View Deployment</a>.
 
 ## Description
 
